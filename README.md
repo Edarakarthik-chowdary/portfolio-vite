@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+View My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack
+Frontend: React, TypeScript
+Build Tool: Vite
+Routing: React Router
+Animations: Framer Motion
+Contact Form: EmailJS
+Deployment: Vercel
+✨ Features
+Personal introduction and developer profile
+Project showcase with GitHub links
+Experience section
+Contact page
+Animated navigation
+Scroll progress indicator
+Resume download option
+Responsive styling
+📂 Project Structure
+portfolio-vite/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+🚀 Getting Started
+Prerequisites
 
-Currently, two official plugins are available:
+Install the following software:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Node.js with npm
+Git
+1. Clone the Repository
+git clone https://github.com/Edarakarthik-chowdary/portfolio-vite.git
+2. Open the Project
+cd portfolio-vite
+3. Install Dependencies
+npm install
+4. Start the Development Server
+npm run dev
 
-## React Compiler
+Open the local URL displayed in your terminal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+5. Build for Production
+npm run build
+6. Run the Production Preview
+npm run preview
+💼 Featured Projects
+1. GETJOBS — Job Portal
 
-## Expanding the ESLint configuration
+A Java-based job portal application using Spring Boot, JSP, and MySQL.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Repository: GETJOBS Job Portal
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+2. JobPortle
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+A Spring Boot and Java project.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Repository: JobPortle
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Portfolio Website
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A personal portfolio built using React, TypeScript, and Vite.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Repository: Portfolio Source Code
+
+🎯 Career Focus
+Java Development
+Spring Boot
+REST API Development
+MySQL and Database Management
+React and TypeScript
+Software Testing and Automation
+👨‍💻 Author
+
+Edara Karthik
+
+GitHub: Edarakarthik-chowdary
+Portfolio: Visit Website
